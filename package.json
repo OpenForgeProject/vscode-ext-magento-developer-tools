@@ -9,7 +9,7 @@
       "email": "m.elle@dermatz.de"
     }
   ],
-  "publisher": "",
+  "publisher": "MathiasElle",
   "repository": {
     "type": "git",
     "url": "https://github.com/OpenForgeProject/vscode-ext-magento-developer-tools"
@@ -18,7 +18,7 @@
     "vscode": "^1.96.0"
   },
   "categories": [
-    "Other",
+    "Other"
   ],
   "keywords": [
     "Magento",
@@ -28,18 +28,17 @@
     "Development",
     "Productivity",
     "OpenForge",
-    "OpenForgeProject"
-    "OpenForge Project"
-    "Open Forge"
+    "OpenForgeProject",
+    "OpenForge Project",
+    "Open Forge",
     "Open Forge Project"
   ],
-  "activationEvents": [],
-  "contributes": {
-    "commands": []
-  },
   "activationEvents": [
     "onStartupFinished"
   ],
+  "contributes": {
+    "commands": []
+  },
   "main": "./dist/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run package",
